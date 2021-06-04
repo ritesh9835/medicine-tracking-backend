@@ -29,6 +29,13 @@ namespace MedicineTracking.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(o => o.AddPolicy("AllowAll", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             services.AddScoped<IMedicineRepo, MedicineRepo>();
 
             services.AddSwaggerGen(c=>
@@ -50,6 +57,8 @@ namespace MedicineTracking.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors("AllowAll");
             app.UseSwagger();
             app.UseHttpsRedirection();
             app.UseSwaggerUI(c =>

@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 namespace MedicineTracking.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
     public class MedicineController : ControllerBase
     {
 

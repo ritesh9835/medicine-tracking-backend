@@ -1,22 +1,5 @@
 {
   "medicines": [
-    {
-      "Id": "e818585e-98d4-445b-9d4d-3b363978d095",
-      "FullName": "string",
-      "Brand": "string",
-      "Price": 0.0,
-      "Quantity": 0,
-      "ExpiryDate": "2021-06-23T18:18:16.679Z",
-      "Notes": "string"
-    },
-    {
-      "Id": "1f2d8129-7da4-47c1-aad9-5ec1efe9e04e",
-      "FullName": "string5",
-      "Brand": "string",
-      "Price": 0.0,
-      "Quantity": 0,
-      "ExpiryDate": "2021-06-23T18:18:16.679Z",
-      "Notes": "string"
-    }
+   
   ]
 }
