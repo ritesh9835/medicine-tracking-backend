@@ -1,5 +1,13 @@
 {
   "medicines": [
-   
+    {
+      "Id": "10e751c6-a43a-476f-9538-0b42afd904ee",
+      "FullName": "Eno",
+      "Brand": "Dabar",
+      "Price": 10.12,
+      "Quantity": 100,
+      "ExpiryDate": "2021-06-30T00:00:00Z",
+      "Notes": "Notes goes here"
+    }
   ]
 }
